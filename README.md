@@ -2,6 +2,37 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+## Dependences
+
+Bootstrap/Jquery: npm i bootstrap jquery --save;
+Angular Imask: npm i angular-imask --save;
+Currency Formatter: npm i currency-formatter --save;
+Moment.js: npm i moment --save;
+Toastr: npm i toastr --save;
+Primeng: npm i primeng --save;
+Primeicons: npm i primeicons --save;
+Chartjs: npm i chart.js --save;
+Angular in memory api: npm i angular-in-memory-web-api --save.
+
+## Set Up Dependences
+
+Add the code below into angular.json file
+
+"styles": [
+            "src/styles.css",
+            "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "node_modules/toastr/build/toastr.min.css",
+            "node_modules/primeicons/primeicons.css",
+            "node_modules/primeng/resources/themes/nova-light/theme.css",
+            "node_modules/primeng/resources/primeng.min.css "
+          ],
+
+"scripts": [
+            "node_modules/jquery/dist/jquery.min.js",
+            "node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "node_modules/chart.js/dist/Chart.bundle.js"
+          ]
+          
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
