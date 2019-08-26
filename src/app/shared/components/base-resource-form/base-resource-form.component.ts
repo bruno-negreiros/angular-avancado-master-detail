@@ -9,11 +9,6 @@ import { switchMap } from 'rxjs/operators';
 
 import toastr from 'toastr';
 
-@Component({
-  selector: 'app-category-form',
-  templateUrl: './category-form.component.html',
-  styleUrls: ['./category-form.component.css']
-})
 export abstract class BaseResourceFormComponent<T extends BaseResourceModel> implements OnInit, AfterContentChecked {
 
   currentAction: string;
